@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+body{
+    min-width: 400px;
+}
+.col{
+    justify-content: center;
+    text-align: center;
+}
+#input-el{
+    border-color: green;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+#input-btn{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+#input-btn:hover{
+    background-color: yellowgreen;
+    transition:1s;
+}
+#save-btn{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+#save-btn:hover{
+    background-color: yellowgreen;
+    transition:1s;
+}
+#delete-btn{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+#delete-btn:hover{
+    background-color: #692f2f;
+    transition:1s;
+}
+#box{
+    background-color: yellowgreen;
+     text-align: center;
+}
+
+
+ul li{
+    list-style-type: none;
+}
+a{
+    color: green;
+}
